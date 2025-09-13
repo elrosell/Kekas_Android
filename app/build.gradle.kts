@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.kekas_android"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.kekas_android"

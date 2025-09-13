@@ -6,20 +6,21 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_margin="80dp"
+    android:layout_margin="10dp"
     android:layout_gravity="center"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="KEKAS"
-        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:text="LAS KEKAS DE KIKIN"
         android:gravity="center"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="Cantidad de Kekas"
         android:gravity="center"
         android:layout_margin="10dp"
         android:id="@+id/edit1"/>
@@ -46,8 +47,8 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/resultado"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="10dp"/>
 
 </LinearLayout>
